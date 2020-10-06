@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(44, 44, 44);
+  color: gold;
+  font-family: "Lato", sans-serif;
+}
+
+/* nav bar styling */
+.nav-bar {
+  font-size: 30px;
+  /* border: 5px cyan solid; */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*Used to get li into an inline formation, prep for moving the other links to the right  */
+li {
+  /* border: 5px purple solid; */
+  display: inline;
+  padding: 10px;
+}
+
+/* Take nav links to the right. Name acts as a link back to the landing */
+.nav-bar-right {
+  float: right;
+}
+
+li a {
+  text-decoration: none;
+  color: gold;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+/* Section for materials below nav bar that include text and social links */
+.landing-text {
+  /* border: chartreuse 5px solid; */
+  text-align: center;
+  padding: 100px 0px 50px 0px;
+}
+
+.landing-title {
+  /* border: chartreuse 5px solid; */
+  font-size: 5em;
+}
+
+.landing-subtitle {
+  /* border: chartreuse 5px solid; */
+  font-size: 2.15em;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.social {
+  /* border: red 5px solid; */
+  text-align: center;
+}
+
+i.fab {
+  color: gold;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+i.fab:hover {
+  background-color: silver;
+  color: rgb(44, 44, 44);
+}
+
+/* Projects page */
+
+.project {
+  border: hotpink 5px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 25px 0px;
+  text-align: center;
+}
+
+/* Contact Page */
+
+.contact {
+  border: hotpink 5px solid;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
