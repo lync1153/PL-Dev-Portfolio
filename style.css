@@ -8,11 +8,14 @@ body {
   background-color: rgb(44, 44, 44);
   color: gold;
   font-family: "Lato", sans-serif;
+  /* background-color: rgb(184, 61, 61, 0.25);
+  background: url(./img/RM\ bkgd\ 1.jpg); */
 }
 
 /* nav bar styling */
 .nav-bar {
   font-size: 30px;
+  padding: 10px 10px 0px 10px;
   /* border: 5px cyan solid; */
 }
 
@@ -48,18 +51,20 @@ li a:hover {
 .landing-text {
   /* border: chartreuse 5px solid; */
   text-align: center;
-  padding: 100px 0px 50px 0px;
+  padding: 125px 0px 50px 0px;
 }
 
 .landing-title {
   /* border: chartreuse 5px solid; */
-  font-size: 5em;
+  font-size: 7em;
 }
 
 .landing-subtitle {
   /* border: chartreuse 5px solid; */
-  font-size: 2.15em;
-  padding-top: 10px;
+  color: rgb(224, 191, 0);
+  font-size: 3.5em;
+  font-weight: 25;
+  padding-top: 60px;
   padding-bottom: 100px;
 }
 
@@ -69,7 +74,7 @@ li a:hover {
 }
 
 i.fab {
-  color: gold;
+  color: rgb(155, 132, 0);
   font-size: 35px;
   padding-top: 10px;
   padding-left: 15px;
@@ -78,28 +83,115 @@ i.fab {
 }
 
 i.fab:hover {
-  background-color: silver;
+  background-color: rgb(155, 132, 0);
   color: rgb(44, 44, 44);
 }
 
 /* Projects page */
 
 .project {
-  border: hotpink 5px solid;
+  /* border: hotpink 5px solid; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 25px 0px;
+  /* padding: 100px 0px; */
   text-align: center;
 }
 
-/* Contact Page */
-
-.contact {
-  border: hotpink 5px solid;
+.project-1,
+.project-2 {
+  /* border: cyan 5px solid; */
+  padding: 100px;
 }
 
-label,
+.project-1-title,
+.project-2-title {
+  /* border: hotpink 5px solid; */
+  font-size: 3.15em;
+  padding-bottom: 30px;
+}
+
+.project-1-link,
+.project-2-link {
+  /* border: steelblue solid 5px; */
+  text-decoration: none;
+  font-size: 2.75em;
+  color: rgb(224, 191, 0);
+  padding: 15px;
+}
+
+a {
+  text-decoration: underline;
+  color: rgb(224, 191, 0);
+}
+
+.project-1-list,
+.project-2-list {
+  /* border: yellow solid 5px; */
+  font-size: 2em;
+  font-weight: 0;
+  color: rgb(196, 166, 0);
+}
+/* Contact Page */
+
+.contact-heading {
+  font-size: 4em;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.contact {
+  /* border: hotpink 5px solid; */
+  display: block;
+  text-align: center;
+}
+
+form {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
 input,
 textarea {
-  display: block;
+  display: table;
+}
+
+label {
+  font-size: 2.75em;
+  color: rgb(224, 191, 0);
+}
+
+input {
+  width: 25vw;
+  height: 3.5vh;
+  font-size: 1em;
+  padding-left: 10px;
+  background: rgb(184, 184, 184);
+}
+
+textarea {
+  width: 25vw;
+  height: 10vh;
+  font-size: 1em;
+  padding-top: 5px;
+  padding-left: 10px;
+  background: rgb(184, 184, 184);
+}
+
+button {
+  border: rgb(224, 191, 0) 5px solid;
+  width: 25vw;
+  height: 3.75vh;
+  background: rgb(44, 44, 44);
+  color: rgb(224, 191, 0);
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  color: rgb(44, 44, 44);
+  background: rgb(224, 191, 0);
+  cursor: pointer;
 }

@@ -25,20 +25,17 @@
       </ul>
     </div>
 <div class="contact">
-  <h1>Contact Me</h1>
+  <h1 class="contact-heading">Contact Me</h1>
   <form action="https://formspree.io/f/xbjpddzq" method="POST">
-    <label>Name
-      <input type="text" class="name" name="name">
-    </label>
-    <label>Email
-      <input type="text" class="email" name="_replyto">
-    </label>
-    <label>Subject
-      <input type="text" class="subject" name="subject">
-    </label>
-    <label>Message
-      <textarea name="message"></textarea>
-    </label>
+    <label class="label-name">Name</label>
+    <input type="text" class="name" name="name" placeholder="Name here">
+    <label class="label-email">Email</label>
+    <input type="text" class="email" name="_replyto" placeholder="email@email.com">
+    <label class="label-subject">Subject</label>
+    <input type="text" class="subject" name="subject" placeholder="Subject here">
+    <label class="label-message">Message</label>
+    <textarea name="message" placeholder="Write message here"></textarea>
+    <br>
     <button type="submit" class="submit">Send</button>
   </form>
   <div class="status">
@@ -46,15 +43,16 @@
   </div>
 </div>
   <div class="social">
-    <a href="#" class="social-linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.linkedin.com/in/paul-lynch-2205841a5/" class="social-linkedin" target="_blank"><i
+        class="fab fa-linkedin-in"></i></a>
     </a>
-    <a href="#" class="social-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-    <a href="#" class="social-github" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/pldev1153" class="social-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/lync1153" class="social-github" target="_blank"><i class="fab fa-github"></i></a>
   </div>
   <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
   <script>
     window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
-    formbutton("create", { action: "https://formspree.io/f/xbjpddzq" })
+
   </script>
 </body>
 
