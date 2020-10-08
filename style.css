@@ -100,7 +100,7 @@ i.fab:hover {
 .project-1,
 .project-2 {
   /* border: cyan 5px solid; */
-  padding: 100px;
+  padding: 90px;
 }
 
 .project-1-title,
@@ -194,4 +194,170 @@ button:hover {
   color: rgb(44, 44, 44);
   background: rgb(224, 191, 0);
   cursor: pointer;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: grey;
+  }
+
+  /* Project Page */
+
+  .project-1,
+  .project-2 {
+    /* border: cyan 5px solid; */
+    padding: 60px;
+  }
+
+  .project-1-title,
+  .project-2-title {
+    /* border: hotpink 5px solid; */
+    font-size: 2.5em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .project-1-img,
+  .project-2-img {
+    width: 375px;
+  }
+
+  .project-1-link,
+  .project-2-link {
+    /* border: steelblue solid 5px; */
+    text-decoration: none;
+    font-size: 2.15em;
+    color: rgb(224, 191, 0);
+    padding: 15px;
+  }
+
+  a {
+    text-decoration: underline;
+    color: rgb(224, 191, 0);
+  }
+
+  .project-1-list,
+  .project-2-list {
+    /* border: yellow solid 5px; */
+    font-size: 1.75em;
+    font-weight: 0;
+    color: rgb(196, 166, 0);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    background-color: pink;
+  }
+
+  /* Project Page */
+
+  .project {
+    display: table;
+  }
+
+  .project-1,
+  .project-2 {
+    /* border: cyan 5px solid; */
+    padding: 25px;
+  }
+
+  .project-1-title,
+  .project-2-title {
+    /* border: hotpink 5px solid; */
+    font-size: 2.5em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .project-1-link,
+  .project-2-link {
+    /* border: steelblue solid 5px; */
+    text-decoration: none;
+    font-size: 2.15em;
+    color: rgb(224, 191, 0);
+    padding: 15px;
+  }
+
+  a {
+    text-decoration: underline;
+    color: rgb(224, 191, 0);
+  }
+
+  .project-1-list,
+  .project-2-list {
+    /* border: yellow solid 5px; */
+    font-size: 1.75em;
+    font-weight: 0;
+    color: rgb(196, 166, 0);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: cyan;
+  }
+  /* Landing Page */
+
+  .landing-title {
+    /* border: chartreuse 5px solid; */
+    font-size: 6em;
+  }
+
+  .landing-subtitle {
+    /* border: chartreuse 5px solid; */
+    color: rgb(224, 191, 0);
+    font-size: 3em;
+    font-weight: 25;
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+  /* Project Page */
+
+  .project {
+    display: table;
+  }
+
+  .project-1,
+  .project-2 {
+    /* border: cyan 5px solid; */
+    padding: 25px;
+  }
+
+  .project-1-title,
+  .project-2-title {
+    /* border: hotpink 5px solid; */
+    font-size: 2.5em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .project-1-img,
+  .project-2-img {
+    width: 350px;
+  }
+
+  .project-1-link,
+  .project-2-link {
+    /* border: steelblue solid 5px; */
+    text-decoration: none;
+    font-size: 2.15em;
+    color: rgb(224, 191, 0);
+    padding: 15px;
+  }
+
+  a {
+    text-decoration: underline;
+    color: rgb(224, 191, 0);
+  }
+
+  .project-1-list,
+  .project-2-list {
+    /* border: yellow solid 5px; */
+    font-size: 1.75em;
+    font-weight: 0;
+    color: rgb(196, 166, 0);
+  }
 }
