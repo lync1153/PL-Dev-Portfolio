@@ -92,26 +92,32 @@ i.fab:hover {
 .project {
   /* border: hotpink 5px solid; */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr;
   /* padding: 100px 0px; */
-  text-align: center;
+  scroll-behavior: smooth;
 }
 
 .project-1,
-.project-2 {
+.project-2,
+.project-3 {
   /* border: cyan 5px solid; */
-  padding: 90px;
+  padding: 20px;
+  padding-top: 90px;
+  text-align: center;
 }
 
 .project-1-title,
-.project-2-title {
+.project-2-title,
+.project-3-title {
   /* border: hotpink 5px solid; */
   font-size: 3.15em;
   padding-bottom: 30px;
 }
 
 .project-1-link,
-.project-2-link {
+.project-2-link,
+.project-3-link {
   /* border: steelblue solid 5px; */
   text-decoration: none;
   font-size: 2.75em;
@@ -125,7 +131,8 @@ a {
 }
 
 .project-1-list,
-.project-2-list {
+.project-2-list,
+.project-3-list {
   /* border: yellow solid 5px; */
   font-size: 2em;
   font-weight: 0;
@@ -205,14 +212,22 @@ button:hover {
 
   /* Project Page */
 
+  .project {
+    display: grid;
+    justify-content: center;
+  }
+
   .project-1,
-  .project-2 {
+  .project-2,
+  .project-3 {
     /* border: cyan 5px solid; */
     padding: 60px;
+    justify-items: center;
   }
 
   .project-1-title,
-  .project-2-title {
+  .project-2-title,
+  .project-3-title {
     /* border: hotpink 5px solid; */
     font-size: 2.5em;
     padding-top: 30px;
@@ -220,12 +235,14 @@ button:hover {
   }
 
   .project-1-img,
-  .project-2-img {
+  .project-2-img,
+  .project-3-img {
     width: 375px;
   }
 
   .project-1-link,
-  .project-2-link {
+  .project-2-link,
+  .project-3-link {
     /* border: steelblue solid 5px; */
     text-decoration: none;
     font-size: 2.15em;
@@ -239,11 +256,29 @@ button:hover {
   }
 
   .project-1-list,
-  .project-2-list {
+  .project-2-list,
+  .project-3-list {
     /* border: yellow solid 5px; */
     font-size: 1.75em;
     font-weight: 0;
     color: rgb(196, 166, 0);
+  }
+
+  /* Contact Page */
+
+  input {
+    width: 35vw;
+    height: 3.5vh;
+  }
+
+  textarea {
+    width: 35vw;
+    height: 10vh;
+  }
+
+  button {
+    width: 35vw;
+    height: 3.75vh;
   }
 }
 
@@ -256,6 +291,7 @@ button:hover {
 
   .project {
     display: table;
+    justify-content: center;
   }
 
   .project-1,
@@ -293,12 +329,34 @@ button:hover {
     font-weight: 0;
     color: rgb(196, 166, 0);
   }
+
+  /* Contact Page */
+
+  input {
+    width: 35vw;
+    height: 3.5vh;
+  }
+
+  textarea {
+    width: 35vw;
+    height: 10vh;
+  }
+
+  button {
+    width: 35vw;
+    height: 3.75vh;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   body {
     background-color: cyan;
   }
+
+  .nav-bar {
+    float: left;
+  }
+
   /* Landing Page */
 
   .landing-title {
@@ -359,5 +417,22 @@ button:hover {
     font-size: 1.75em;
     font-weight: 0;
     color: rgb(196, 166, 0);
+  }
+
+  /* Contact Page */
+
+  input {
+    width: 45vw;
+    height: 3.5vh;
+  }
+
+  textarea {
+    width: 45vw;
+    height: 10vh;
+  }
+
+  button {
+    width: 45vw;
+    height: 3.75vh;
   }
 }
