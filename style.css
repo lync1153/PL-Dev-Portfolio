@@ -206,9 +206,9 @@ button:hover {
 /* Responsive design */
 
 @media only screen and (max-width: 1200px) {
-  body {
+  /* body {
     background-color: grey;
-  }
+  } */
 
   /* Project Page */
 
@@ -235,8 +235,7 @@ button:hover {
   }
 
   .project-1-img,
-  .project-2-img,
-  .project-3-img {
+  .project-2-img {
     width: 375px;
   }
 
@@ -283,9 +282,9 @@ button:hover {
 }
 
 @media only screen and (max-width: 992px) {
-  body {
+  /* body {
     background-color: pink;
-  }
+  } */
 
   /* Project Page */
 
@@ -349,9 +348,9 @@ button:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  body {
+  /* body {
     background-color: cyan;
-  }
+  } */
 
   .nav-bar {
     float: left;
@@ -395,6 +394,10 @@ button:hover {
   .project-1-img,
   .project-2-img {
     width: 350px;
+  }
+
+  .project-3-img {
+    width: 225px;
   }
 
   .project-1-link,
